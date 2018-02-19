@@ -16,7 +16,7 @@ app.use((req, res, next) => {
   next();
 });
 
-//test if it work
+//test if it work  as
 
 // app.use((req, res, next) => {
 //   res.render('maintenance.hbs');
