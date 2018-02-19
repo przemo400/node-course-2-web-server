@@ -25,7 +25,7 @@ app.use((req, res, next) => {
 app.use(express.static(__dirname + '/public')); 
 
 hbs.registerHelper('getCurrentYear', () => {
-  return new Date().getFullYear(); //what?ss
+  return new Date().getFullYear(); //what?s
 });
 
 hbs.registerHelper('screamIt', (text) => {
